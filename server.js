@@ -94,5 +94,5 @@ app.get('/getasset', (req,res) => {
 
 const port = 3002;
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
+  console.log(`Server running at http://127.0.0.1:${port}/`);
 });
